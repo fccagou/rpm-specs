@@ -13,14 +13,17 @@ I want it as simple as git clone && cd && buildall
 
 ## Installation
 
-
-  sudo yum install -i rpmdevtools rpm-build patch git
-  git clone https://github.com/fccagou/rpm-specs ~/rpmbuild
+~~~
+   sudo yum install -i rpmdevtools rpm-build patch git
+   git clone https://github.com/fccagou/rpm-specs ~/rpmbuild
+~~~
 
 ## Build all specs
 
-  cd ~/rpmbuild/SPECS
-  for s in *.spec; do rpmbuild -ba $s; done
+~~~
+   cd ~/rpmbuild/SPECS
+   for s in *.spec; do rpmbuild -ba $s; done
+~~~
 
 ## TODO
 
