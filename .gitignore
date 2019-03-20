@@ -1,0 +1,10 @@
+BUILD
+BUILDROOT
+RPMS
+SRPMS
+*.tgz
+*.tar
+*.gz
+*.bz2
+*~
+*.rpm
